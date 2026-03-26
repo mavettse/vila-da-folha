@@ -53,3 +53,12 @@ A maneira mais prática é importar o projeto em uma **IDE** (como IntelliJ IDEA
 *(Alternativamente, a compilação e execução podem ser feitas via terminal, garantindo que todas as classes estejam no classpath.)*
 
 ---
+
+## Autores
+
+* **Giovanni Estevam** - [GitHub](https://github.com/mavettse)
+* **Wescley Júnior** - [GitHub](https://github.com/wescleyj)
+* **João Vitor Lopes** - [GitHub](https://github.com/joaovitorf4)
+
+---
+*Projeto desenvolvido para fins acadêmicos - Engenharia da Computação / 2025.*
