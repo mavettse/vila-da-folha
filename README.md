@@ -1,12 +1,12 @@
-# VilaDaFolha
+# vila-da-folha
 
-Este é um projeto de aplicação desktop desenvolvido em **Java** para gerenciamento de **Moradores** (Ninjas e Civis) e **Missões**, simulando uma estrutura de gestão de aldeia, como a Vila da Folha (Konohagakure).
+Este é um projeto de aplicação desktop desenvolvido em **Java** para gerenciamento de **Moradores** (Ninjas e Civis) e **Missões**, simulando uma estrutura de gestão de aldeia, como a Vila da Folha.
 
 O sistema adota a arquitetura **MVC** (Model-View-Controller) e utiliza a persistência de dados em arquivos **CSV**.
 
 ---
 
-## ✨ Funcionalidades Principais
+## Funcionalidades Principais
 
 *	**Gerenciamento de Moradores:** Cadastro, listagem, edição e remoção de Ninjas e Civis.
 *	**Gerenciamento de Missões:** Criação de missões com diferentes níveis, atribuição a ninjas e atualização de status (pendente, em andamento, concluída).
@@ -15,7 +15,7 @@ O sistema adota a arquitetura **MVC** (Model-View-Controller) e utiliza a persis
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 *	**Linguagem de Programação:** Java
 *	**Arquitetura:** MVC (Model-View-Controller)
@@ -24,19 +24,19 @@ O sistema adota a arquitetura **MVC** (Model-View-Controller) e utiliza a persis
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 O código-fonte segue a separação de responsabilidades da arquitetura MVC:
 
-*	**`src/principal/model`**: Classes de entidade (`Morador`, `Ninja`, `Civil`, `Missao`) e enums.
-*	**`src/principal/view`**: Classes de interface gráfica (`Janela`, `DialogAdicionarMorador`, `DialogAdicionarMissao`).
-*	**`src/principal/controller`**: Classe `Controller` para a lógica de aplicação.
-*	**`src/principal/dao`**: Classes de acesso a dados (`MoradorDAO`, `MissaoDAO`) para interação com os arquivos CSV.
-*	**`src/principal/App.java`**: Ponto de entrada da aplicação.
+*	**[`src/principal/model`](`src/principal/model`)**: Classes de entidade (`Morador`, `Ninja`, `Civil`, `Missao`) e enums.
+*	**[`src/principal/view`](`src/principal/view`)**: Classes de interface gráfica (`Janela`, `DialogAdicionarMorador`, `DialogAdicionarMissao`).
+*	**[`src/principal/controller`](`src/principal/controller`)**: Classe `Controller` para a lógica de aplicação.
+*	**[`src/principal/dao`](`src/principal/dao`)**: Classes de acesso a dados (`MoradorDAO`, `MissaoDAO`) para interação com os arquivos CSV.
+*	**[`src/principal/App.java`](`src/principal/App.java`)**: Ponto de entrada da aplicação.
 
 ---
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 ### Pré-requisitos
 
